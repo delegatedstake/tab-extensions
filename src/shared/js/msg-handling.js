@@ -9,8 +9,8 @@ import {
 // Handle messages from webpage.
 
 var trustedOrigins = [
-  'http://www.exploreos.com',
-  'https://www.exploreos.com',
+  'http://www.exploreos.com/',
+  'https://www.exploreos.com/',
   // Used in development
   'http://localhost:3000'
 ]

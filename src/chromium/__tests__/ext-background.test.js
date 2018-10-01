@@ -16,7 +16,7 @@ test('opens a welcome tab on install', () => {
     id: 'abc-123'
   })
   expect(chrome.tabs.create).toHaveBeenCalledWith({
-    url: 'https://www.exploreos.com'
+    url: 'https://www.exploreos.com/'
   })
 })
 

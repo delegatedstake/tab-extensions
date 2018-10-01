@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "homepage_url": "https://www.exploreos.com",
+  "homepage_url": "https://www.exploreos.com/",
   "description": "Democratized and Secure Search",
   "chrome_url_overrides": {
     "newtab": "iframe.html"

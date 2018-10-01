@@ -5,7 +5,7 @@ browser.runtime.onInstalled.addListener(function (object) {
   try {
     // On install, open a welcome tab.
     if (object.reason === browser.runtime.OnInstalledReason.INSTALL) {
-      const postInstallURL = 'https://www.exploreos.com'
+      const postInstallURL = 'https://www.exploreos.com/'
       browser.tabs.create({ url: postInstallURL })
     }
   } catch (e) {

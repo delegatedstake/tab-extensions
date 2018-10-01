@@ -49,5 +49,5 @@ test('self-hosted manifest overrides are as expected', () => {
 // Basic display tests.
 
 test('extension name is correct', () => {
-  expect(manifest['name']).toBe('Tab for a Cause')
+  expect(manifest['name']).toBe('ExploreOS Search')
 })

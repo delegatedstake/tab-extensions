@@ -20,7 +20,7 @@ describe('message handler', () => {
         foo: 'bar'
       }
     }
-    messageEvent.origin = 'https://tab.gladly.io'
+    messageEvent.origin = 'https://www.exploreos.com/'
     messageEvent.data = mockMsgData
     window.dispatchEvent(messageEvent)
 
