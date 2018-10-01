@@ -32,5 +32,5 @@ test('extension update URL is set to Chrome Web Store', () => {
 // Basic display tests.
 
 test('extension name is correct', () => {
-  expect(manifest['name']).toBe('Tab for a Cause')
+  expect(manifest['name']).toBe('ExploreOS Search')
 })

@@ -1,4 +1,4 @@
-# Tab for a Cause Browser Extensions
+# ExploreOS Browser Extensions
 
 ## Getting Started
 

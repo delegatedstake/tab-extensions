@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gladly-team/tab-extensions.git"
+    "url": "https://github.com/delegatedstake/tab-extensions"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gladly-team/tab-extensions/issues"
+    "url": "https://github.com/delegatedstake/tab-extensions/issues"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -45,7 +45,7 @@
       "[/\\\\]node_modules[/\\\\].+\\.(js|jsx)$"
     ]
   },
-  "homepage": "https://github.com/gladly-team/tab-extensions#readme",
+  "homepage": "https://github.com/delegatedstake/tab-extensions#readme",
   "devDependencies": {
     "archiver": "^2.1.1",
     "babel-core": "^6.26.3",

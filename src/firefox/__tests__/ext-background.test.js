@@ -16,7 +16,7 @@ test('opens a welcome tab on install', () => {
     id: 'abc-123'
   })
   expect(browser.tabs.create).toHaveBeenCalledWith({
-    url: 'https://tab.gladly.io/newtab/first-tab/'
+    url: 'https://www.exploreos.com/'
   })
 })
 
@@ -53,7 +53,7 @@ test('gracefully handles any error with opening the welcome page', () => {
 test('sets the post-uninstall URL', () => {
   require('../ext-background')
   expect(browser.runtime.setUninstallURL)
-    .toHaveBeenCalledWith('https://tab.gladly.io/newtab/uninstalled/')
+    .toHaveBeenCalledWith('https://www.exploreos.com/uninstalled/')
 })
 
 test('gracefully handles errors with setting the post-uninstall URL', () => {

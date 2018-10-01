@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-  "homepage_url": "https://tab.gladly.io",
-  "description": "Raise money for charity with every browser tab you open!",
+  "homepage_url": "https://www.exploreos.com",
+  "description": "Democratized and Secure Search",
   "chrome_url_overrides": {
     "newtab": "iframe.html"
   },
@@ -11,7 +11,7 @@
     "48": "./img/logo48.png",
     "128": "./img/logo128.png"
   },
-  "name": "Tab for a Cause",
+  "name": "ExploreOS Search",
   "background": {
     "scripts": ["ext-background.js"]
   },

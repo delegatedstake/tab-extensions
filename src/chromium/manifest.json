@@ -3,14 +3,14 @@
     "newtab": "iframe.html"
   },
   "manifest_version": 2,
-  "description": "Raise money for charity with every browser tab you open!",
+  "description": "Democratized and Secure Search",
   "icons": {
     "16": "./img/logo16.png",
     "32": "./img/logo32.png",
     "48": "./img/logo48.png",
     "128": "./img/logo128.png"
   },
-  "name": "Tab for a Cause",
+  "name": "ExploreOS Search",
   "background": {
     "scripts": ["ext-background.js"],
     "persistent": false

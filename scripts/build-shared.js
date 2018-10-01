@@ -23,7 +23,7 @@ var config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'Tab for a Cause',
+      title: 'ExploreOS',
       inject: false,
       template: HTML_PATH,
       filename: 'iframe.html',

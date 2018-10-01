@@ -1,9 +1,9 @@
 {
   "applications": {
     "gecko": {
-      "id": "contact@tabforacause.org",
+      "id": "contact@exploreos.com",
       "strict_min_version": "56.0a1",
-      "update_url": "https://tab.gladly.io/firefox/update.json"
+      "update_url": "https://www.exploreos.com/firefox/update.json"
     }
   }
 }

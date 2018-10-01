@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(function (object) {
   try {
     // On install, open a welcome tab.
     if (object.reason === chrome.runtime.OnInstalledReason.INSTALL) {
-      const postInstallURL = 'https://tab.gladly.io/newtab/first-tab/'
+      const postInstallURL = 'https://www.exploreos.com/'
       chrome.tabs.create({ url: postInstallURL })
     }
   } catch (e) {
@@ -16,7 +16,7 @@ chrome.runtime.onInstalled.addListener(function (object) {
 // On uninstall, open a post-uninstall page to get feedback.
 // https://developer.chrome.com/extensions/runtime#method-setUninstallURL
 try {
-  const postUninstallURL = 'https://tab.gladly.io/newtab/uninstalled/'
+  const postUninstallURL = 'https://www.exploreos.com/uninstalled/'
   chrome.runtime.setUninstallURL(postUninstallURL)
 } catch (e) {
   console.error(e)
