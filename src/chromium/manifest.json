@@ -2,6 +2,28 @@
   "chrome_url_overrides": {
     "newtab": "iframe.html"
   },
+  "chrome_settings_overrides": {
+    "homepage": "https://www.exploreos.com",
+      "search_provider": {
+        "name": "ExploreOS",
+        "keyword": "keyword.__MSG_url_domain__",
+        "search_url": "https://www.exploreos.com/?q={searchTerms}",
+        "favicon_url": "https://www.exploreos.com/img/expore_Favicon.png",
+        "image_url": "https://www.exploreos.com/?q={searchTerms}&type=image",
+        "encoding": "UTF-8",
+        "is_default": true
+      },
+      "startup_pages": ["https://www.exploreos.com"]
+  },
+  "browser_action": {
+    "default_title": "",
+    "default_icon": {
+      "16": "./img/logo16.png",
+      "32": "./img/logo32.png",
+      "48": "./img/logo48.png",
+      "128": "./img/logo128.png"
+    }
+  },
   "manifest_version": 2,
   "description": "Democratized and Secure Search",
   "icons": {
@@ -19,5 +41,5 @@
     "tabs"
   ],
   "update_url": "http://clients2.google.com/service/update2/crx",
-  "version": "5.19"
+  "version": "5.20"
 }

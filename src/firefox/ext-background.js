@@ -16,7 +16,7 @@ browser.runtime.onInstalled.addListener(function (object) {
 // On uninstall, open a post-uninstall page to get feedback.
 // https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/runtime/setUninstallURL
 try {
-  const postUninstallURL = 'https://www.exploreos.com/uninstalled/'
+  const postUninstallURL = 'https://www.exploreos.com/uninstall/'
   browser.runtime.setUninstallURL(postUninstallURL)
 } catch (e) {
   console.error(e)

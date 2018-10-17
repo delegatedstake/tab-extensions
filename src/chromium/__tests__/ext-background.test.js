@@ -53,7 +53,7 @@ test('gracefully handles any error with opening the welcome page', () => {
 test('sets the post-uninstall URL', () => {
   require('../ext-background')
   expect(chrome.runtime.setUninstallURL)
-    .toHaveBeenCalledWith('https://www.exploreos.com/uninstalled/')
+    .toHaveBeenCalledWith('https://www.exploreos.com/uninstall/')
 })
 
 test('gracefully handles errors with setting the post-uninstall URL', () => {
